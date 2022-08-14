@@ -1,0 +1,119 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+:root{
+    /*Palleta de cores*/
+    --cor1:#BAB91A;
+    --cor2:#878756;
+    --cor3:#EDC839;
+    --cor4:#759EEF;
+    --cor5:#1A79BA;
+    /*fonts*/
+    --fontAlerta: 'Allerta Stencil', sans-serif;
+    --fontAlumni: 'Alumni Sans Inline One', cursive;
+    --fontAssinar:'Passions Conflict', cursive;;
+}
+
+body{
+    background-color: var(--cor5);
+}
+
+header{
+    background-color: var(--cor3);
+    border-radius: 10px;
+}
+
+header > h1 {
+    font-family: var(--fontAlumni);
+    font-weight: normal;
+    font-size: 55px;
+    border: 10px 10px 1 0px 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+    border-radius: 10px;
+}
+header > nav > a > button {
+    text-align: center;
+    text-decoration: none;
+    font: normal lighter 1.0em var(--fontAlerta);
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    border-radius: 10px;
+    height: 68px;
+}
+nav > a > button {
+    background-color: var(--cor3);
+    border-radius: 5px;
+    padding-left: 2px;
+    block-size: 55px;
+    width: 24%;
+}
+nav > a > button:hover {
+    background-color: white;
+}
+
+div.elioenai{
+    width: 97.5%;
+    height: 100%;
+    background-color: var(--cor3);
+    border-radius: 8px;
+    padding: 18px;
+    border: 1px solid black; 
+}
+
+main div p {
+    font-size: 1.5em;
+}
+p#assinaturaeli {
+    font-family: 'Passions Conflict', cursive;
+    font-size: 4em;
+    font-weight: 600px;
+    margin: 0px 15px 0px 0px;
+    padding: 0px;
+}
+picture.teste{
+    display: inline-block;
+    margin: 0px 0px 0px 15px;
+    position: relative;
+}
+
+main > a > input{
+    height: 100px;
+    width: 43%;
+    font: normal bolder 20px --fontAlerta;
+    margin-left: 5%;
+    text-size-adjust: initial;
+    
+}
+
+main > a {
+    height: 120px;
+    width: 50%;
+    font: normal bold 24px --fontAlerta;
+
+}
+
+main > p {
+
+    font: italic normal 24px --fontAlerta;
+    margin: auto;
+}
+
+main {
+    margin: auto;
+    width: 97%;
+    background-color: var(--cor4);
+    border-radius: 20px;
+    position: inherit;
+}
+
+main > h1 {
+    background-image: linear-gradient(to left, rgb(109, 180, 109), rgb(184, 220, 184));
+    border-radius: 10px 10px 0px 0px;
+}
